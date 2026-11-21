@@ -40,7 +40,8 @@ default_shell = "/bin/sh"
 env = {'PATH': os.environ.get('PATH', '/usr/bin:/bin'), 'HOME': str(root / 'home'),
        'XDG_RUNTIME_DIR': str(root / 'runtime'), 'LANG': 'C.UTF-8'}
 env.update(XDG_CONFIG_HOME=str(root / 'config'), XDG_STATE_HOME=str(root / 'state'),
-           XDG_DATA_HOME=str(root / 'data'), TERM='xterm-256color')
+           XDG_DATA_HOME=str(root / 'data'), TERM='xterm-256color',
+           HERDR_CONFIG_PATH=str(config / 'config.toml'))
 session = 'sliding-smoke'
 cmd = [str(binary), '--session', session]
 master, slave = pty.openpty()

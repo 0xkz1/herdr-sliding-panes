@@ -53,5 +53,9 @@
     "hidden_tab_widths_preserved_on_host_resize": true,
     "terminal_ids_preserved": true
   },
-  "hosted_ci_note": "See GitHub Actions for independently executed hosted validation."
+  "hosted_ci_note": "See GitHub Actions for independently executed hosted validation.",
+  "tui_smoke_build_profiles": [
+    "release",
+    "debug"
+  ]
 }
