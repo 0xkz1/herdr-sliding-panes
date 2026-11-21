@@ -1,0 +1,10 @@
+Herdr Sliding Panes
+
+This project distributes modifications to Herdr v0.9.5.
+Upstream: https://github.com/herdrdev/herdr
+Upstream revision: 2ecf19a92fc3a7fff75b6ce3655ef04f4625ec01
+
+The upstream project and this patchset use the Apache License, Version 2.0.
+See LICENSE. Original notices in the upstream source are retained when built.
+
+This is an independent community patchset, not an official Herdr release.

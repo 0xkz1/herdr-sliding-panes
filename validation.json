@@ -1,0 +1,57 @@
+{
+  "upstream_commit": "2ecf19a92fc3a7fff75b6ce3655ef04f4625ec01",
+  "patch_sha256": "80b5bba142180dfc62aa86aaabb98681f460149b72ee72c370141782ef2fe4b1",
+  "platform": "Linux x86_64",
+  "rust": "1.99.1",
+  "zig": "0.16.0",
+  "release_build": "passed",
+  "fresh_upstream_clone_and_patch": "passed",
+  "preparation_guard_tests": {
+    "passed": 5
+  },
+  "rust_suites": {
+    "sliding": {
+      "passed": 12,
+      "ignored": 1
+    },
+    "layout": {
+      "passed": 28,
+      "ignored": 1
+    },
+    "headless": {
+      "passed": 185,
+      "ignored": 3
+    },
+    "mouse": {
+      "passed": 2,
+      "ignored": 0
+    },
+    "graphics": {
+      "passed": 30,
+      "ignored": 1
+    }
+  },
+  "sliding_tui_smoke": {
+    "passed": true,
+    "host_columns": 120,
+    "virtual_columns": 288,
+    "initial_pane_columns": [
+      96,
+      96,
+      96
+    ],
+    "horizontal_wheel": true,
+    "scrolled_divider_drag": true,
+    "reconnect_preserved_terminal_ids_and_shell_pids": true,
+    "toggle_off_preserved_split_ratios": true
+  },
+  "readable_tui_smoke": {
+    "passed": true,
+    "panes": 7,
+    "minimum_measured_pty_columns": 46,
+    "hidden_tab_widths_preserved": true,
+    "hidden_tab_widths_preserved_on_host_resize": true,
+    "terminal_ids_preserved": true
+  },
+  "hosted_ci_note": "See GitHub Actions for independently executed hosted validation."
+}

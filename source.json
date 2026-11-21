@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/herdrdev/herdr.git",
+  "ref": "v0.9.5",
+  "commit": "2ecf19a92fc3a7fff75b6ce3655ef04f4625ec01",
+  "patch": "patches/herdr-v0.9.5-sliding-panes.patch",
+  "sha256": "80b5bba142180dfc62aa86aaabb98681f460149b72ee72c370141782ef2fe4b1",
+  "rust": "1.99.1",
+  "zig": "0.16.0"
+}
